@@ -6,7 +6,7 @@
     </header>
     <CourseCatalogue @add-to-wishlist="addToWishlist" />
     <section class="wishlist">
-      <h2>Your Wishlist:</h2>
+      <h2>This Is Your Wishlist:</h2>
       <ul>
         <li v-for="course in wishlist" :key="course.id">
           {{ course.title }} (R{{ course.price }})
